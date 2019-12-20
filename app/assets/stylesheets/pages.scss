@@ -7,14 +7,29 @@
 
 #main {
   width: 100%;
-  background-image: url("https://stmedia.stimg.co/1571446757_08+1009760332+1UPUK101919+206079.JPG?auto=compress&crop=faces&dpr=2.625&w=412")
+  height: 100%;
+  background-image: url("https://stmedia.stimg.co/1571446757_08+1009760332+1UPUK101919+206079.JPG?auto=compress&crop=faces&dpr=2.625&w=412");
+  padding: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.twitter {
-  background-image: url("https://github.com/nickb27/portfolio/blob/master/app/assets/images/twitter.png")
+#main h2 {
+  color: #000000;
+  font-weight: bold;
+  font-family: Courier;
+  font-size: 50px;
 }
 
-.row {
-  margin-right: -15px;
-  margin-left: -15px;
+#work_btn {
+  float: right;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
